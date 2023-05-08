@@ -1,0 +1,243 @@
+effect "warplance fire"
+	sprite "effect/wlancefire"
+		"frame rate" 30
+		"no repeat"
+	sound warplancef
+	lifetime 16
+
+effect "disintegrator fire"
+	sprite "effect/disintegrator fire"
+		"frame rate" 30
+	lifetime 1
+
+effect "disintegrator plasma"
+	sprite "effect/explosion/small"
+		"no repeat"
+		"frame rate" 20
+	sound "deepnoise"
+	"lifetime" 25
+	"random frame rate" 20
+	"random spin" 12
+	"random angle" 180
+	"random velocity" 8
+	"velocity scale" 0.012
+
+effect "disintegrator hit"
+	sprite "effect/explosion/small"
+		"no repeat"
+		"frame rate" 20
+	"lifetime" 25
+	"random frame rate" 20
+	"random spin" 12
+	"random angle" 180
+	"random velocity" 6
+	"velocity scale" 0
+
+effect "warplance hit"
+	sprite "effect/wlancehit"
+		"frame rate" 30
+		"no repeat"
+	sound warplance
+	lifetime 16
+	"velocity scale" 0
+
+effect "lance pd"
+	sprite "effect/lancepd"
+		"frame rate" 30
+		"no repeat"
+	sound lancepd
+	lifetime 12
+
+effect "maser dome"
+	sprite "effect/maser"
+		"no repeat"
+		"random start frame"
+		"frame rate" 60
+	sound "maser"
+	"lifetime" 1
+	"velocity scale" 1
+
+effect "chronovortex fire"
+	sprite "effect/skylance impact"
+		"frame rate" 30
+		"no repeat"
+	lifetime 2
+	"random lifetime" 4
+	"random angle" 12
+	"random velocity" 15
+
+effect "chronovortex hit"
+	sprite "effect/chrono"
+		"frame rate" 20
+		"no repeat"
+	sound "chronovortex hit"
+	lifetime 10
+	#"random lifetime" 4
+	"velocity scale" 0
+	"random angle" 360
+	"random velocity" 16
+
+effect "chronovortex live"
+	sprite "effect/chrono"
+		"frame rate" 30
+		"no repeat"
+	lifetime 7
+	"velocity scale" 0.4
+
+effect "mpd trail tiny"
+	sprite "effect/mpd spark"
+		"no repeat"
+	sound "aeon tiny"
+	lifetime 240
+	"velocity scale" 0.8
+	"random angle" 360
+	"random velocity" 1
+	"random spin" 50
+	"random frame rate" 8
+
+effect "mpd trail small"
+	sprite "effect/mpd spark"
+		"no repeat"
+	sound "aeon small"
+	lifetime 240
+	"velocity scale" 0.8
+	"random angle" 360
+	"random velocity" 1
+	"random spin" 50
+	"random frame rate" 8
+
+effect "mpd trail medium"
+	sprite "effect/mpd spark"
+		"no repeat"
+	sound "aeon medium"
+	lifetime 240
+	"velocity scale" 0.8
+	"random angle" 360
+	"random velocity" 1
+	"random spin" 50
+	"random frame rate" 8
+
+effect "mpd trail large"
+	sprite "effect/mpd spark"
+		"no repeat"
+	sound "aeon large"
+	lifetime 240
+	"velocity scale" 0.8
+	"random angle" 360
+	"random velocity" 1
+	"random spin" 50
+	"random frame rate" 8
+
+effect cascade
+	sprite "effect/antimatter spark"
+		"frame rate" 30
+		"no repeat"
+	lifetime 5
+	"velocity scale" 0.01
+	"random angle" 15
+	"random velocity" 30
+
+effect "gravity vortex"
+	sprite projectile/warparea
+		"frame rate" 60
+	lifetime 1
+	"velocity scale" 0
+
+effect "gravity projection"
+	sprite projectile/projbeam
+		"frame rate" 20
+		"random start frame"
+	lifetime 1
+	"velocity scale" 0
+
+effect "warp shell explode"
+	sprite effect/explosion/medium
+		"frame rate" 20
+		"no repeat"
+	sound "torpedo hit"
+	lifetime 30
+	"velocity scale" 0
+	"random angle" 360
+	"random spin" 2
+
+effect "warp shell debris"
+	sprite effect/bolide
+		"frame rate" 10
+		"no repeat"
+	sound "torpedo hit"
+	lifetime 30
+	"velocity scale" 0
+	"random angle" 30
+	"random velocity" -5
+	"random spin" 20
+	"random frame rate" 20
+
+effect "plasma blade hit"
+	sprite "effect/pwave impact"
+		"frame rate" 60
+		"no repeat"
+	lifetime 5
+	"velocity scale" -0.001
+	"random angle" 10
+	"random velocity" -1
+	"random spin" 2
+
+effect "plasma blade fire"
+	sprite effect/flame
+		"frame rate" 60
+		"no repeat"
+	sound "heliarch attractor"
+	lifetime 6
+	"random angle" 10
+	"random velocity" 16
+	"random spin" 10
+
+effect "mass driver fire"
+	sprite effect/mdfire
+		"frame rate" 60
+		"no repeat"
+	lifetime 2
+	"velocity scale" 1.1
+
+effect "mass driver trail"
+	sprite effect/mdtrail
+		"frame rate" 60
+		"no repeat"
+	lifetime 21
+	"velocity scale" 0.1
+
+effect "mass driver plasma"
+	sprite effect/explosion/small
+		"frame rate" 10
+		"no repeat"
+	lifetime 60
+	"velocity scale" -0.05
+	"random angle" 360
+	"random velocity" 2
+	"random spin" 2
+	"random frame rate" 20
+
+effect "mass driver hit"
+	sprite effect/explosion/large
+		"frame rate" 20
+		"no repeat"
+	sound "final explosion small"
+	lifetime 60
+	"velocity scale" 0.005
+	"random angle" 360
+	"random spin" 5
+
+effect "microfusion fire"
+	sprite effect/mfusionfire
+		"frame rate" 60
+		"no repeat"
+	lifetime 2
+	"random angle" 360
+	"random spin" 5
+
+effect "dual microfusion fire"
+	sprite effect/mfusionfire2
+		"frame rate" 60
+		"no repeat"
+	lifetime 2
+
