@@ -51,7 +51,7 @@ outfit Warp-Lance
 		"firing heat" 30
 		"shield damage" 628
 		"hull damage" 840
-		"hit force" 800
+		"hit force" 400
 		piercing 0.3
 		phasing
 	description "The technology behind this weapon is incomprehensibly complex, even for ancient Mata standards. With a pulse of negative energy, it creates a small rift in the fabric of space-time, and hits the target faster than light, ignoring anything in its path. While it is capable of piercing shields just as well, the interference from the matrix disrupts the field and lowers the damage, so Relic recommends pairing it with their own Chronovortex weapons to weaken shields first." 
@@ -96,18 +96,18 @@ outfit "Warp-Lance Turret"
 		"fire effect" "warplance fire"
 		"hit effect" "warplance hit"
 		lifetime 1
-		reload 120
-		velocity 450
+		reload 150
+		velocity 560
 		"hardpoint offset" 6
-		"turret turn" 12
+		"turret turn" 9
 		"firing energy" 1300
 		"firing heat" 30
 		"shield damage" 628
 		"hull damage" 840
-		"hit force" 800
+		"hit force" 400
 		piercing 0.3
 		phasing
-	description "The turreted version of the Warp-Lance is smaller and lighter, giving it unmatched turn rates and making it easy to install on any capable ship, but it has a significantly shorter range, and takes slightly longer to charge"
+	description "The turreted version of the Warp-Lance is smaller and lighter, giving it unmatched turn rates and making it easy to install on any capable ship, but it takes significantly longer to charge, and has a slightly shorter range."
 
 outfit "Lance Point Defense"
 	category Turrets
@@ -234,7 +234,7 @@ outfit "Gravity Projector"
 	description "This absurd weapon creates a gravitational well at a set distance in front of the ship, compressing the fabric of space and forming an intense maelstrom, warped by gravitational waves. It swallows anything that dares to come close to it, holding them in place and slowly shredding them with gravitational waves and radiation. Due do its nature, targets that are big and heavy are much more susceptible to damage from it, but the ship that fires it is also bound to the gravitational well, losing maneuverability."
 
 outfit "Disintegrator Beam"
-	category "Secondary Weapons"
+	category Guns
 	cost 42000000
 	mass 166
 	thumbnail outfit/disintegrator
@@ -247,7 +247,7 @@ outfit "Disintegrator Beam"
 			"frame rate" 20
 		gravitational
 		sound disintegrator
-		icon icon/dragonflame
+		#icon icon/dragonflame
 		"fire effect" "disintegrator fire"
 		"fire effect" "chronovortex fire" 2
 		"hit effect" "disintegrator plasma" 5
@@ -255,19 +255,19 @@ outfit "Disintegrator Beam"
 		velocity 1000
 		lifetime 1
 		"hardpoint offset" 10
-		reload 3
+		reload 1.5
 		"burst count" 90
 		"burst reload" 1
-		"firing energy" 240
-		"firing heat" 60
-		"shield damage" 350
-		"hull damage" 450
-		"relative shield damage" 0.0007
-		"relative hull damage" 0.0009
-		"hit force" 40
+		"firing energy" 120
+		"firing heat" 30
+		"shield damage" 175
+		"hull damage" 225
+		"relative shield damage" 0.00175
+		"relative hull damage" 0.00225
+		"hit force" 15
 		piercing 0.1
 		#phasing
-	description "For all the power this weapon has, the beam is nearly invisible. Any kind of matter it hits is undone in a matter of seconds, evaporated into primordial plasma. To prevent accidental bursts from triggering the safety cooldown, this weapon is wired into the secondary firing system."
+	description "For all the power this weapon has, the beam is nearly invisible. Any kind of matter it hits is undone in a matter of seconds, evaporated into primordial plasma."
 
 outfit "Microfusion Cannon"
 	category "Secondary Weapons"
